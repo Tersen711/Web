@@ -1,0 +1,508 @@
+body{
+margin: 0;
+padding: 0;
+}
+.header{
+border-bottom: 1px solid white;
+position: absolute;
+z-index: 100;
+width:100%;
+}
+.header menu{
+width: 25%;
+height: 3vw;
+margin-left: 70%;
+}
+.header li{
+list-style: none;
+margin-left: 3%;
+float: left;
+margin-top: 3%;
+}
+
+.header a{
+text-decoration: none;
+font-size: 1vw;
+color: white;
+font-family: 'Kaushan Script', cursive;
+}
+
+.header a:hover{
+border-bottom: 2px solid white;
+transition: 0.3s;
+}
+.header img{
+height: 4vw;
+margin-top:-4.5%;
+position: absolute;
+left: 5%;
+}
+.mid1{
+z-index: 70;
+}
+.name{
+font-size:4vw;
+color: white;
+position:absolute;
+margin-top:-50%;
+left:5%;
+font-family: 'Patrick Hand', cursive;
+}
+
+.about_name{
+font-size:2vw;
+color: white;
+position:absolute;
+margin-top:-40%;
+left:5%;
+font-family: 'Patrick Hand', cursive;
+}
+.welcome{
+	font-size:4vw;
+	color: white;
+	position:absolute;
+	margin-top:-58%;
+	left:5%;
+	font-family: 'Patrick Hand', cursive;
+}
+
+.mid1 menu{
+position: absolute;
+z-index: 80;
+margin-top: -30vw;
+width:50%;
+left: 5%;
+border-top: 1px solid white;
+padding-top:4%;
+}
+.mid1 li{
+float: left;
+list-style:none;
+margin-left: 8%;
+}
+.soc_logo{
+height: 2vw;
+
+}
+.experience{
+z-index:90;
+box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+background: #EBEAEA;
+width:100%;
+height:30vw;
+margin-top:-15vw;
+position: absolute;
+font-family: 'Codystar', cursive;
+}
+
+.ex1{
+height: 60%;
+width: 17%;
+border: 1px solid white;
+box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+margin-left: 41.5%;
+margin-top: 7.5vw;
+background: white;
+font-family: 'Black Ops One', cursive;
+}
+.t1{
+margin-left:10%;
+font-size:1.3vw;
+font-weight: bold;
+margin-top:35%;
+font-family: 'Black Ops One', cursive;
+}
+.t2{
+margin-left:10%;
+width: 75%;
+color: #998F8F;
+font-size:1.1vw;
+font-family: 'Black Ops One', cursive;
+}
+.colba{
+height: 3vw;
+position: absolute;
+margin-left: 1%;
+margin-top: 1%;
+}
+.ex1:hover{
+background: #17BED1;
+border: 1px solid #17BED1;
+cursor: pointer;
+color: white;
+transition: 0.4s;
+}
+.t2:hover{
+color: white;
+}
+.ex2:hover{
+background: #17BED1;
+border: 1px solid #17BED1;
+cursor: pointer;
+color: white;
+transition: 0.4s;
+}
+.t4:hover{
+color: white;
+}
+.ex3:hover{
+background: #17BED1;
+border: 1px solid #17BED1;
+cursor: pointer;
+color: white;
+transition: 0.4s;
+}
+.t6:hover{
+color: white;
+}
+.ex2{
+height: 60%;
+width: 17%;
+border: 1px solid white;
+box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+margin-left: 58.65%;
+margin-top: -18.1vw;
+background: white;
+font-family: 'Black Ops One', cursive;
+}
+.t3{
+margin-left:10%;
+font-size:1.3vw;
+font-weight: bold;
+margin-top:35%;
+font-family: 'Black Ops One', cursive;;
+}
+.t4{
+margin-left:10%;
+width: 75%;
+color: #998F8F;
+font-size:1.1vw;
+font-family: 'Black Ops One', cursive;
+}
+.planshet{
+height: 3vw;
+position: absolute;
+margin-left: 1%;
+margin-top: 1%;
+}
+
+.ex3{
+height: 60%;
+width: 17%;
+border: 1px solid white;
+box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+margin-left: 75.85%;
+margin-top: -18.15vw;
+background: white;
+font-family: 'Black Ops One', cursive;
+}
+.t5{
+margin-left:10%;
+font-size:1.3vw;
+font-weight: bold;
+margin-top:35%;
+font-family: 'Black Ops One', cursive;
+}
+.t6{
+margin-left:10%;
+width: 75%;
+color: #998F8F;
+font-size:1.1vw;
+font-family: 'Black Ops One', cursive;
+}
+.medal{
+height: 3vw;
+position: absolute;
+margin-left: 1%;
+margin-top: 1%;
+}
+
+.left_text1{
+font-size:2vw;
+font-weight:bold;
+position: absolute;
+margin-top: 7.5vw;
+color: #515669;
+margin-left: 20%;
+}
+.left_text2{
+font-size:1.3vw;
+position: absolute;
+margin-top: 11vw;
+color: #515669;
+margin-left: 20%;
+}
+.work{
+width: 100%;
+position: absolute;
+margin-top: 15vw;
+height: 50vw;
+font-family: 'Codystar', cursive;
+}
+.one{
+width: 35%;
+margin-left: 40%;
+margin-top: 5%;
+box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+}
+.two{
+width: 17.5%;
+margin-left: 0.2%;
+margin-top: 5%;
+position: absolute;
+box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+}
+.three{
+width: 17.5%;
+margin-left: 0.2%;
+margin-top: 14.9%;
+position: absolute;
+box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+}
+.four{
+float: left;
+width: 17.5%;
+position: absolute;
+margin-top: 25%;
+margin-left: -35.01%;
+box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+}
+.five{
+float: left;
+width: 17.5%;
+position: absolute;
+margin-top: 25%;
+margin-left: -17.5%;
+box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+}
+.six{
+float: left;
+width: 17.5%;
+position: absolute;
+margin-top: 25%;
+margin-left: 0.2%;
+box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+}
+
+.contact{
+border: 1px solid #FAFAFA;
+width: 100%;
+height: 30vw;
+background: #FAFAFA;
+margin-top: 55vw;
+font-family: 'Codystar', cursive;
+}
+.first{
+height: 10%;
+width: 50%;
+margin-left: 35%;
+margin-top: 8vw;
+font-family: 'Cutive Mono', monospace;
+}
+.first li{
+float: left;
+list-style: none;
+font-size: 1.2vw;
+margin-left: 15%;
+font-family: 'Cutive Mono', monospace;
+}
+.second{
+height: 10%;
+width: 55%;
+margin-left: 40%;
+font-family: 'Cutive Mono', monospace;
+}
+.second li{
+float: left;
+list-style: none;
+font-size: 1vw;
+margin-left: 4%;
+font-family: 'Cutive Mono', monospace;
+}
+.about{
+width: 100%;
+height: 40vw;
+background: white;
+position: absolute;
+}
+video{
+width: 100%;
+}
+.about_text{
+position: absolute;
+width: 40%;
+margin-left:30%;
+text-align: justify;
+font-size: 1.3vw;
+color: #7973D8;
+border: 1px solid white;
+padding: 1%;
+margin-top: -56%;
+background: white;
+box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+border-radius: 10px;
+opacity: 0.9;
+font-family: 'Rye', cursive;
+}
+.img1, .img2, .img3, .img4, .img5, .img6{
+position: absolute;
+visibility: hidden;
+}
+@media(max-width: 1000px){
+.name{
+	text-align: center;
+	font-size: 3vw;
+	width: 100%;
+}
+.about_name{
+	text-align: center;
+	font-size: 3vw;
+	width: 100%;
+}
+.experience{
+	height: 70vw;
+}
+.ex1{
+	width: 30%;
+	margin-left:2.5%;
+	margin-top:15vw;
+}
+.ex2{
+	width: 30%;
+	margin-left:35%;
+	margin-top:-35.2vw;
+}
+.ex3{
+	width: 30%;
+	margin-left:67.5%;
+	margin-top:-35.2vw;
+}
+.t1{
+	font-size: 3vw;
+}
+.t2{
+	font-size: 2.5vw;
+}
+.t3{
+	font-size: 3vw;
+}
+.t4{
+	font-size: 2.5vw;
+}
+.t5{
+	font-size: 3vw;
+}
+.t6{
+	font-size: 2.5vw;
+}
+.colba{
+	height: 6vw;
+}
+.planshet{
+	height: 6vw;
+}
+.medal{
+	height: 6vw;
+}
+.left_text1{
+	width: 100%;
+	text-align: center;
+	font-size: 3vw;
+	margin: 0;
+	margin-top:3vw;
+}
+.left_text2{
+	width: 100%;
+	text-align: center;
+	font-size: 2.5vw;
+	margin: 0;
+	margin-top:6vw;
+}
+.mid1 menu{
+	margin-left: 18%;
+	padding-left: 18%;
+}
+.header menu{
+	margin-left: 55%;
+	width: 35%;
+}
+.header a{
+	font-size: 1.5vw;
+
+}
+.work{
+	margin-top: 60vw;
+}
+.one, .two, .three, .four, .five , .six{
+	visibility: hidden;
+}
+.img1, .img2{
+visibility: visible;
+width: 45%;
+height: 30vw;
+float: left;
+margin-left: 2.5%;
+box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+border-radius: 10px;
+cursor: pointer;
+position: relative;
+margin-top: -10%;
+}
+.img3, .img4{
+visibility: visible;
+width: 45%;
+height: 30vw;
+float: left;
+margin-left: 2.5%;
+box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+border-radius: 10px;
+cursor: pointer;
+position: relative;
+margin-top: 5%;
+}
+.img5, .img6{
+visibility: visible;
+width: 45%;
+height: 30vw;
+float: left;
+margin-left: 2.5%;
+box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+border-radius: 10px;
+cursor: pointer;
+position: relative;
+margin-top: 5%;
+}
+.contact{
+margin-top: 180vw;
+}
+.first{
+width: 80%;
+margin: 10%;
+margin-top: 15%;
+margin-left:-0.01%;
+}
+.first li{
+font-weight: bold;
+font-size: 2.1vw;
+padding-left: 2vw;
+}
+.second{
+width: 90%;
+margin: 4%;
+margin-top: -7%;
+}
+.second li{
+font-size: 2.1vw;
+}
+.about{
+	background: url(../image/3.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	transition: 0.4s;
+}
+.about:hover{
+	background: url(../image/4.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	transition: 0.4s;
+}
